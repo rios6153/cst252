@@ -1,0 +1,22 @@
+body {background-color: black;}
+
+
+h1 {
+color: white;
+font-size: 200%;
+}
+
+h2 {
+color: white;
+font-size: 200%;
+}
+
+p {
+color: white;
+}
+
+#content {
+background-color: "#000000";
+widht: 300px;
+margin-right: 10px;
+}
