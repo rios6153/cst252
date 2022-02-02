@@ -13,7 +13,13 @@ font-size: 200%;
 
 p {
 color: white;
+position: relative;
 }
+
+h3 {
+  color: white;
+  font-size: 200%;
+  }
 
 nav a {
   color: white;
