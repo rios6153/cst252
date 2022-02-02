@@ -1,4 +1,8 @@
-body {background-color: black;}
+body {
+  background-color: black;
+  background-image: url("../img/dogrunning.gif");
+  background-size: cover;
+}
 
 
 h1 {
@@ -7,13 +11,13 @@ font-size: 200%;
 }
 
 h2 {
-color: white;
+color: brown;
 font-size: 200%;
 }
 
 p {
-color: white;
-position: relative;
+color: brown;
+position: center;
 }
 
 h3 {
