@@ -30,3 +30,12 @@ nav a {
 div content {
   color: white;
 }
+
+div h1, h2, h3, p {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  word-spacing: 0.5em;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+  color: white;
+}
