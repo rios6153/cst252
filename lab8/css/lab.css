@@ -1,0 +1,28 @@
+body {background-color: lightgray;}
+
+
+h1 {
+color: white;
+font-size: 200%;
+}
+
+h2 {
+color: white;
+font-size: 200%;
+}
+
+p {
+color: black;
+}
+
+h3 {
+color: white;
+font-size: 200%;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 110%;
+  text-decoration: none;
+}
