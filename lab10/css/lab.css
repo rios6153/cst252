@@ -1,0 +1,62 @@
+body {
+
+}
+h1 {
+  font-family: "Lucida Handwriting", cursive;
+  color: #07ae06;
+  padding-left: 100px;
+  font-size: 40px;
+  line-height: 100px
+}
+p {
+  font-family: optima;
+  font-size: 20px;
+  padding-left: 100px;
+  color: #ffffff;
+}
+h2 {
+font-family: "Lucida Handwriting", cursive;
+  font-size: 30px;
+  padding-left: 100px;
+  color: #f3bd0f;
+}
+script {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 10px;
+  padding-left: 100px;
+  color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+.code-link {
+    text-align: right;
+    font-size: 60%;
+}
+
+.namebadge {
+    float: right;
+    width:400px;
+}
+.namebadge img {
+    width: 100%;
+    height: auto;
+}
+
+#name-results {
+    position: absolute;
+    top: 210px;
+    right: 80px;
+    width: 450px;
+    word-wrap: break-word;
+    font-size: 350%;
+    line-height: 90%;
+    font-weight: bold;
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    margin: 20px;
+    color: gold;
+}
