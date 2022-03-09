@@ -3,7 +3,8 @@
 * Created: 09 March 2022
 * License: Public Domain
 */
-//thanks to this site for saving us another 2 hours! https://www.geeksforgeeks.org/how-to-set-alert-message-on-button-click-in-jquery/
+//thanks to this site for saving us another 2 hours!
+//https://www.geeksforgeeks.org/how-to-set-alert-message-on-button-click-in-jquery/
 
 $(document).ready(function () {
     $("#btn").click(function () {
