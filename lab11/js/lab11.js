@@ -10,6 +10,6 @@ $(document).ready(function () {
     $("#btn").click(function () {
     alert("Hello! You have reached our fabulous alert message. Why? We're not sure.");
     $("#btn").css("background-color", "lightgreen");
-
+    $("#output").css("background-color", "lightblue");
     });
 });
