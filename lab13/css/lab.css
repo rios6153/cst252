@@ -1,7 +1,6 @@
 h1 {
   font-family: arial black;
-
-  padding-left: 100px;
+  padding-left: 75px;
   font-size: 40px;
   line-height: 100px
 }
@@ -14,8 +13,19 @@ p {
 h2 {
   font-family: arial black;
   font-size: 30px;
-  padding-left: 100px;
+  padding-left: 75px;
+}
 
+h3 {
+    font-family: arial;
+    color: #ba2026;
+    font-size: 20px;
+    padding-left: 0px;
+}
+.button
+{
+    font-size: 13px;
+    color:red;
 }
 script {
   font-family: arial black;
@@ -24,34 +34,10 @@ script {
   color: #000000;
 }
 
-.challenges, .results, .problems {
-    border: solid 8px white;
+.challenges, .results, .problems, .you {
+    border: solid 6px white;
     padding: 20px;
     margin: 20px;
-}
-
-.red {
-  color: red;
-}
-.green {
-  color: green;
-}
-.blue {
-  color: blue;
-}
-
-#target1 {
-  font-weight: cursive;
-  font-size: 18px;
-}
-
-#target2 {
-  font-weight: cursive;
-  font-size: 18px;
-}
-#target3 {
-  font-weight: cursive;
-  font-size: 18px;
 }
 
 a {
@@ -65,41 +51,27 @@ a {
 .javascript link {
     text-align: left;
 }
+
 #output {
-  min-height: 40px;
-  border: solid 8px white;
-  padding: 20px;
-  color: #07ae06;
+    position: absolute;
+    right: 1050px;
+    padding: 35px;
+    border-radius: 150px;
+    border: solid 4px white;
+    background-color: lightgray;
+    color: #8C001A;
+    width: 400px;
+    font-size: 115%;
+
 }
+
+.input-output {
+    border: solid 1px #333333;
+    padding: 10px 10px 30px;
+}
+
+
+
 event.delegateTarget {
     color: #07ae06;
-}
-
-/* POP-UP*/
-
-#pop-up {
-    width: 25vw;
-    height: 25vh;
-    position: absolute;
-    top: 50%;
-    left: -50%;
-    transform: translate(-50%,-50%);
-    border: solid 2px black;
-    z-index: 1000;
-    background-color: white;
-    transition: left 0.5s ease-in-out;
-}
-
-.shown {
-    left: 50% !important;
-}
-
-.pop-box {
-background-color: #555;
-color: #fff;
-position: absolute;
-width: 100%;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
 }

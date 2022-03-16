@@ -1,39 +1,55 @@
 /*
 * Authors: Suzy Ford & Art Rios
-* Created: 14 March 2022
+* Created: 16 March 2022
 * License: Public Domain
 */
 //thanks to Wes for an awesome lecture :)
 
+housesArray = [
+  {
+  title: "Gryffindor",
+  text: "Oh lucky!"
+},
+{
+  title: "Ravenclaw",
+  text: "You Like?"
+},
+{
+  title: "Slytherin",
+  text: "Take Your Chances Here."
+},
+{
+  title: "Hufflepuff",
+  text: "What the....?"
+}
 
-var myButton = $("<button>");
-myButton.html("Press me");
-$("#output").append(myButton);
+]
 
+function sortingHat(name) {
 
-myButton.click(function(){
+    var len = name.length;
 
-	myButton.addClass("green-button");
+    var mod = len % 4;
 
-	$("#pop-up").toggleClass("shown");
-})
+    var houseStr;
+    if (mod == 0) {
+        houseStr = "Gryfindor";
+    } else if (mod == 1) {
+        houseStr = "Slytherin";
+    } else if (mod == 2) {
+        houseStr = "Hufflepuff";
+    }else if (mod == 3) {
+        houseStr = "Ravenclaw";
+    }
 
-$("#pop-submit").click(function(){
-	var name = $("#stuff").val();
-	$("#your-name-here").html(name);
-	$("#pop-up").removeClass("shown");
-})
+    return houseStr;
+}
 
-$("button.red").click(function(){
-  $("#target2").removeClass("green");
-	$("#target1").toggleClass("red")
-});
-$("button.green").click(function(){
-  $("#target1").removeClass("red");
-	$("#target2").toggleClass("green");
-});
-$("button.blue").click(function(){
-  $("#target1").removeClass("red");
-	$("#target2").removeClass("green");
-	$("#target3").toggleClass("blue");
+$("#my-button").click(function(){
+
+  var name = $("#input").val()
+  var house = sortingHat(name);
+  console.log(house);
+  $("#output").html("The Sorting Hat has sorted you into " + house);
+
 });
