@@ -1,0 +1,96 @@
+h1 {
+  font-family: arial black;
+  padding-left: 75px;
+  font-size: 40px;
+  line-height: 100px
+}
+p {
+  font-family: optima;
+  font-size: 20px;
+  padding-left: 100px;
+
+}
+h2 {
+  font-family: arial black;
+  font-size: 30px;
+  padding-left: 75px;
+}
+
+h3 {
+    font-family: arial;
+    color: #ba2026;
+    font-size: 20px;
+    padding-left: 0px;
+}
+.button
+{
+    font-size: 13px;
+    color:red;
+}
+script {
+  font-family: arial black;
+  font-size: 10px;
+  padding-left: 100px;
+  color: #000000;
+}
+
+.challenges, .results, .problems, .you {
+    border: solid 6px white;
+    padding: 20px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.linkbox {
+    padding: 10px;
+    font-size: 120%;
+}
+.javascript link {
+    text-align: left;
+}
+
+input[type="number"] {
+    width: 40px;
+}
+input[type="text"] {
+    width: 100px;
+}
+
+input#max {
+    width: 60px;
+}
+
+table {
+    padding: 20px;
+}
+
+input, button {
+    font-size: 90%;
+}
+
+div#input, div#output {
+    border: solid 1px #ccc;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: lightgray;
+    color: #8C001A;
+}
+
+#output.cols {
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
