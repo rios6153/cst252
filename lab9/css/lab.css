@@ -1,6 +1,9 @@
 body {
-
-}
+      background-image: url("../img/background.jpg");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
 h1 {
   font-family: arial black;
   color: #07ae06;
