@@ -28,10 +28,18 @@ secondcar = new Car("Chevy", "Camaro,", 1981, "red", "lots of power,", "Big Boy"
 thirdcar = new Car("BMW", "530i,", 1989, "gold", "all the bells and whisles,", "Goldie");
 fourthcar = new Car("Mazda", "RX7,", 1995, "blue", "a sun roof & front engine,", "Speedy");
 fifthcar = new Car("Isuzu", "Trooper,", 1999, "gold", "seat warmers & sunroof,", "Troop");
-sixcar = new Car("Isuzu", "Rodeo", 2000, "white", "no power", "Poop Bucket");
-sevencar = new Car("Chrysler", "PT Cruiser", 2003, "silver", "sporty rims,", "Bullet");
+sixthcar = new Car("Isuzu", "Rodeo", 2000, "white", "no power", "Poop Bucket");
+seventhcar = new Car("Chrysler", "PT Cruiser", 2003, "silver", "sporty rims,", "Bullet");
 
 console.log(mycar.info());
+
+$("#output").append("<p>" + mycar.info() + "</p>");
+$("#output").append("<p>" + secondcar.info() + "</p>");
+$("#output").append("<p>" + thirdcar.info() + "</p>");
+$("#output").append("<p>" + fourthcar.info() + "</p>");
+$("#output").append("<p>" + fifthcar.info() + "</p>");
+$("#output").append("<p>" + sixthcar.info() + "</p>");
+$("#output").append("<p>" + seventhcar.info() + "</p>");
 
 // OOP Design for Hangman
 // class Hangman
