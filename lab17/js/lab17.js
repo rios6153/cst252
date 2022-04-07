@@ -41,6 +41,8 @@ $("#output").append("<p>" + fifthcar.info() + "</p>");
 $("#output").append("<p>" + sixthcar.info() + "</p>");
 $("#output").append("<p>" + seventhcar.info() + "</p>");
 
+
+
 // OOP Design for Hangman
 // class Hangman
 // initialize
