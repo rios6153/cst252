@@ -50,15 +50,15 @@ a {
     text-align: left;
 }
 
-div#input, div#output {
+div#output {
     border: solid 1px #ccc;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.5);
+    color: #8C001A;
 }
 
 #output  {
     margin-top: 0;
     margin-bottom: 0;
     background-color: lightgray;
-    color: #8C001A;
 }
