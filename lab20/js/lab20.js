@@ -36,9 +36,8 @@ function getComic(num) {
       var alt = data.alt;
       console.log("alt:", alt);
 
-      $("#output").imageUrl(imageUrl);
-      $("#output").title(title);
-      $("#output").append(alt);
+      $("#output").html(html);
+
   })
   .fail(function(){
     console.log("^^ Sorry, don't mind this error, everything is going to be okay!");
@@ -48,3 +47,7 @@ function getComic(num) {
 }
 
 getComic();
+
+$("#output").append("<p>" + vehicle1.info() + "</p>");
+$("#output").append("<p>" + vehicle2.info() + "</p>");
+$("#output").append("<p>" + vehicle3.info() + "</p>");
